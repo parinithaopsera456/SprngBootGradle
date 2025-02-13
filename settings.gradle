@@ -1,1 +1,8 @@
 rootProject.name = 'SprngBootGradle'
+buildCache {
+    local {
+        enabled = true
+    }
+}
+
+
