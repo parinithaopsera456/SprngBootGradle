@@ -8,12 +8,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class DefaultJwtServiceTest {
-
-  private JwtService jwtService;
-
+  private JwtService JwtService;
   @BeforeEach
   public void setUp() {
-    jwtService = new DefaultJwtService("123123123123123123123123123123123123123123123123123123123123", 3600);
+    JwtService = new DefaultJwtService("12312312312312312312312312312312312312312312312", 3600);
   }
 
   @Test
