@@ -67,3 +67,10 @@ jar {
 }
 archivesBaseName = 'SprngBootGradle'
 version = '0.0.1-SNAPSHOT'
+
+buildCache {
+    local {
+        enabled = true
+    }
+}
+
