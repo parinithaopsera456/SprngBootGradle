@@ -61,9 +61,9 @@ tasks.named('generateJava') {
 }
 apply plugin: 'java'
 jar {
-	baseName = Sprnghello
-	version = 1.0
-	enabled = false
+	baseName = 'SprngBootGradle'
+	version = '0.0.1-SNAPSHOT'
+	enabled = true
 }
-archivesBaseName = Sprnghello
-version = 1.0
+archivesBaseName = 'SprngBootGradle'
+version = '0.0.1-SNAPSHOT'
